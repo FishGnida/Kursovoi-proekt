@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> 
+  </title>
+  <link rel="stylesheet" type="text/css" href="JS CSS/mainstyles.css">
+  <link rel="stylesheet" type="text/css" href="JS CSS/slider.css">
+  <script src="JS CSS/jquery-3.5.0.min.js"></script>
+  <script src="JS CSS/scripts.js"></script>
+  
+</head>
+<body style="font-family:Verdana;color:#aaaaaa;">
+
+ <div style="background-color:#e5e5e5;padding:15px;text-align:center; background-color:#000;">
+  <h1><a  name="up">Универсальный Бестиарий</a></h1>
+</div>
+
+<div style="overflow:auto" class = "content">
+  <a href="#up" id="top-btn"> <img src="images/top.png"></a>
+  <div class="menu">
+	<a href="1статья.html">Йог-Соттот</a>
+    <a href="2статья.html">Иерархия древних</a>
+    <a href="3статья.html">Некрономикон</a>
+    <a href="4статья.html">Антропофаги</a>
+
+  </div>
+
+  <div class="main">
+   
+    <div class="text-box">
+    <h2>О нас</h2>
+    <p>На этом сайте можно найти множество статей по самым разным областям мистики. Множество информации, публикуемой здесь, не являються частью какой-либо мифологии, в основном это мистические существа из литературных рассказов. Множество, но не все. Если у вас есть вопросы или предложения, можете написать мне во ВКонтаке  </p>
+    </div>
+	
+	<div class="slider">
+	
+    <div class="item">
+        <img src="images/1.png" alt="Первый слайд">
+        <div class="slideText">Мифология Лавкрафта</div>
+    </div>
+
+    <div class="item item1">
+        <img src="images/3.png" alt="Второй слайд">
+        <div class="slideText">Монстрология</div>
+    </div>
+
+    <div class="item item1">
+        <img src="images/4.png" alt="Третий слайд">
+        <div class="slideText">Заклинания и ритуалы</div>
+    </div>
+
+    <a class="prev" onclick="minusSlide()">&#10094;</a>
+    <a class="next" onclick="plusSlide()">&#10095;</a>
+    </div>
+
+  <div class="slider-dots">
+    <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+    <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+    <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+  </div>
+
+     <div id="mid-column"> <h2>Рекомендованные статьи</h2> </div>
+
+     <div class="container">
+          <div class="center-column-left">
+            <div class="image-box"> <img src="images/necr.png" width="70%" height="100%"> </div>
+           <p> Некрономикон: Книга придуманная и используемая Г.Ф.Лавкрафтом в своих рассказах. Согласно описанию самого писателя, эта книга написанная безумным арабом Абдулом Альхазредом и повествующая о секретах древних </p> <a href="3статья.html" target="_blank"> <img src="images/sss.png" width="30px" height="28px"></a> 
+          </div>
+          <div class="center-column-mid"> 
+            <div class="image-box"> <img src="images/be.png" width="60%" height="100%"> </div>
+           <p> Иерархия Древних: Г.Ф.Лавкрафт был родоначальником древних как части мифологии, но полную картину составилии его последователи. В этой статье лишь частично описан пантеон автора, т.к. цель, это описать структуру мира котрый создал Лавкрафт</p> <a href="2статья.html" target="_blank"> <img src="images/sss.png" width="30px" height="28px"></a> 
+          </div>
+          <div class="center-column-right">
+            <div class="image-box"> <img src="images/yog.png" width="65%" height="100%"></div>
+           <p> Йог-Соттот: Второй по силе древий в пантеоне Лавкрафта. Представляет из себя огромную массу из бурляшего света. Являеться сутью материи и всего что существует во всех временах и пространствах. По сути, в некотором роде, являеться материализацией мироздания </p> <a href="1статья.html" target="_blank"> <img src="images/sss.png" width="30px" height="28px"></a> 
+          </div>
+
+    </div>
+    
+</div>
+</div>
+
+
+ 
+    <footer class="footer">
+        <div class="footer-links">
+            <div class="footer-link-block">
+                <h3>Контактные номера</h3>
+                <ul>
+                    <li><p>А1: +375444736030</p><li>
+                    <li><p>MTS: +375254736030</p><li>
+                    <li><p>Life: +375124736030</p></li>
+                </ul>
+            </div>
+            <div class="footer-link-block">
+                <h3>Соцсети</h3>
+                <ul>
+                    <li><a href="https://vk.com/fish_gnida">Вконтакте</a></li>
+                    <li><a href="https://twitter.com/" title="Our Twitter">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/" title="Our Instagram">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
